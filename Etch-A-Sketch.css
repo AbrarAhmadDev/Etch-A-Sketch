@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=WDXL+Lubrifont+JP+N&display=swap');
+
+body {
+    background-color: beige;
+}
+.square {
+    background-color: #f8f5e9;
+}
+
+
+.modal-overlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+.modal-box {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 32px rgba(0,0,0,0.2);
+  padding: 2rem 2.5rem;
+  text-align: center;
+  min-width: 320px;
+  font-family: 'WDXL Lubrifont JP N', sans-serif;
+}
+.modal-box h2 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+.modal-box label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+#grid-input {
+  width: 80px;
+  padding: 0.4rem;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+  border: 1px solid #aaa;
+  text-align: center;
+}
+.modal-buttons {
+  margin-top: 0.5rem;
+}
+.modal-buttons button {
+  margin: 0 0.5rem;
+  padding: 0.5rem 1.2rem;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  border: 2px solid #2a4d7a;
+  background: antiquewhite;
+  color: #2a4d7a;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+.modal-buttons button:hover {
+  background: #2a4d7a;
+  color: #fff;
+}
+.modal-error {
+  color: #b22222;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  min-height: 1.2em;
+}
